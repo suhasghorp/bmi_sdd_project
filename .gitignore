@@ -1,1 +1,26 @@
+# Rust build artifacts
 /target
+debug/
+release/
+*.rs.bk
+*.rlib
+*.prof*
+
+# IDE
+.idea/
+.vscode/
+
+# Logs and environment
+*.log
+.env*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+nul
+
+# Project-specific
+.claude/
+.specify/
